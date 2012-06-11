@@ -1,11 +1,11 @@
-#include <iostream>
-#include <cstring>
-
-// print bit pattern of argument inArg (which can be any type)
+// c++ header file for printing bit pattern of argument inArg (which can be any type)
 
 // this header file includes implementation, not just declaration
 // assuming that it will be complied by g++
 // which can not compile cpp files including templates
+
+#include <iostream>
+#include <cstring>
 
 template <typename T> void BitPrint(T inArg)
 {
